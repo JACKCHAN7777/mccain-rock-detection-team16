@@ -19,6 +19,7 @@ R-CNN 系列 → 精度高但计算复杂
 MobileNet-SSD → 更轻量、更快但精度略低 
 
 
+
 二：Models to consider：
 
 1.MobileNet-SSD（轻量模型），结合 MobileNet backbone 与 SSD 检测器，适合实时检测与 edge device 部署
@@ -28,6 +29,7 @@ MobileNet-SSD → 更轻量、更快但精度略低
 3.YOLOv8n（轻量模型），相比 YOLOv8 更小、更快，适合嵌入式设备
 
 4.Faster R-CNN（精度对比模型），经典 two-stage 模型，用于对比 accuracy
+
 
 
 三：Experimental ideas：
