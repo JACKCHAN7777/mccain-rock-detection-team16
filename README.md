@@ -8,10 +8,10 @@ The project also considers edge-device feasibility, such as deployment on a Rasp
 ## Requirements and Priorities
 The current project scope prioritises:
 
-visible rock detection as the core task;
-lightweight model selection for possible edge deployment;
-practical dataset preparation and annotation;
-basic evaluation of detection performance.
+- visible rock detection as the core task;
+- lightweight model selection for possible edge deployment;
+- practical dataset preparation and annotation;
+- basic evaluation of detection performance.
 
 Rough size estimation is considered a secondary extension. Buried or partially buried rock analysis is not part of the first-stage core scope, but it may be discussed as a future improvement.
 
