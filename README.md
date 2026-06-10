@@ -33,7 +33,7 @@ At the current stage, the main focus is to prepare a clean labelled dataset and 
 
 ## Repository Structure
 The planned repository structure is:
-
+```
 .
 ├── data/                 # Dataset files or dataset configuration
 ├── notebooks/            # Experiment notebooks
@@ -42,3 +42,4 @@ The planned repository structure is:
 ├── docs/                 # Project documents
 ├── MoSCoW.md             # Requirement breakdown
 └── README.md             # Project overview
+```
