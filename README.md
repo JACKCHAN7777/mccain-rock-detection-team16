@@ -1,10 +1,19 @@
 # Mccain-Rock-Detection-Team16
 
 ## Project Overview
-This project aims to develop a machine vision system that can run on edge devices such as a Raspberry Pi. The system is intended to be mounted behind a potato planter to enable real-time field rock detection, rough size estimation, and status tagging.
+This project aims to develop a lightweight machine vision system for detecting field rocks in potato fields. The system is intended to support on-the-go rock detection from images or video captured near a potato planter. The first-stage focus is visible rock detection, while rough size estimation and rock status tagging are treated as possible extensions.
+
+The project also considers edge-device feasibility, such as deployment on a Raspberry Pi or a similar low-power device.
 
 ## Requirements and Priorities
-The project currently prioritises visible rock detection as the core task, with lightweight model selection and edge-device feasibility treated as key design constraints. Rough size estimation is considered a secondary extension, while buried or partially buried rock analysis is not part of the first-stage core scope.
+The current project scope prioritises:
+
+- visible rock detection as the core task;
+- lightweight model selection for possible edge deployment;
+- practical dataset preparation and annotation;
+- basic evaluation of detection performance.
+
+Rough size estimation is considered a secondary extension. Buried or partially buried rock analysis is not part of the first-stage core scope, but it may be discussed as a future improvement.
 
 For the full MoSCoW requirement breakdown, see [MoSCoW Requirements](./MoSCoW.md).
 
