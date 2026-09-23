@@ -8,10 +8,19 @@ The project currently prioritises visible rock detection as the core task, with 
 
 For the full MoSCoW requirement breakdown, see [MoSCoW Requirements](./MoSCoW.md).
 
+## Repository Structure
+```
+├── code/                  # Jupyter notebooks for model training (Kaggle)
+│   ├── yolov8s-new.ipynb
+│   └── yolo26s-final.ipynb
+├── LaTeX Code/            # Dissertation source files
+│   └── McCain_Team16.zip
+├── Paper/                 # Reference papers
+├── model_reference/       # Model reference notes
+└── MoSCoW.md
+```
+
 ## Team Workflow
-- **Code management**: Strictly follow the GitFlow workflow.
-- **Branch convention**:
-  - `main`: stable production branch
-  - `develop`: main branch for daily development
-  - `person name`: personal feature-development branch
-- **Document collaboration**: Use Overleaf for report writing.
+- **Code development**: All model training and experimentation is conducted on [Kaggle](https://www.kaggle.com/) using GPU notebooks. The `code/` directory contains the exported notebooks.
+- **Document collaboration**: Use Overleaf for LaTeX report writing. The `LaTeX Code/` directory contains the dissertation source archive.
+- **Version control**: This repository serves as the central hub for project documentation, reference materials, and code snapshots.
