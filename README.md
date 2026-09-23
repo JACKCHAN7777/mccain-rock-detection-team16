@@ -24,6 +24,7 @@ For the full MoSCoW requirement breakdown, see [MoSCoW Requirements](./MoSCoW.md
 │   └── yolo26s-final.ipynb
 ├── LaTeX Code/            # Dissertation source files
 │   └── McCain_Team16.zip
+│   └── Team16_McCain_Food_Final.zip
 ├── Paper/                 # Reference papers
 ├── model_reference/       # Model reference notes
 └── MoSCoW.md
